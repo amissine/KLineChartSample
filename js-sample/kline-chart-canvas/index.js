@@ -138,7 +138,7 @@ class KlineChart {
   console.log('seriesData: ', seriesData)
   subcribe(data => { // data: [time, open, high, low, close]
     chart.update(data)
-    console.log('subcribe: ', data)
+    //console.log('subcribe: ', data)
   })
 
   // [time, open, high, low, close][]
